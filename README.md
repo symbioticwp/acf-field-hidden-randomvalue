@@ -6,7 +6,7 @@ It's useful if you use Flexible ACF Field and need unique generated ID's for dyn
 
 ### Installation
 
-####Composer
+#### Composer
 
 Recommend method/s;
 
@@ -21,7 +21,7 @@ $ composer require symbioticwp/acf-field-hidden-randomvalue
 $ wp plugin activate acf-field-hidden-randomvalue
 ```
 
-####Manual
+#### Manual
 
 1. Download. Unzip. Copy the `acf-field-hidden-randomvalue` folder into your `wp-content/plugins` or if you use
 bedrock copy the plugin into `app/plugins`.
