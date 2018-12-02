@@ -1,6 +1,6 @@
 {
   "name": "symbioticwp/acf-field-hidden-randomvalue",
-  "type": "package",
+  "type": "wordpress-plugin",
   "license": "MIT",
   "description": "Display a hidden field with a random generated value",
   "homepage": "https://github.com/symbioticwp/acf-field-hidden-randomvalue",
