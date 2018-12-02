@@ -1,0 +1,35 @@
+{
+  "name": "symbioticwp/acf-field-hidden-randomvalue",
+  "type": "package",
+  "license": "MIT",
+  "description": "Display a hidden field with a random generated value",
+  "homepage": "https://github.com/symbioticwp/acf-field-hidden-randomvalue",
+  "authors": [
+    {
+      "name": "Kevin Kernegger",
+      "email": "hello@regenrek.at",
+      "homepage": "https://github.com/symbioticwp"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/symbioticwp/acf-field-hidden-randomvalue/issues"
+  },
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "^1.0"
+  },
+  "autoload": {
+    "files": [
+      "acf-randomvalue.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "scripts": {
+    "test": [
+      "phpcs --extensions=php --ignore=vendor/ ."
+    ]
+  }
+}
